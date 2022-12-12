@@ -1,0 +1,28 @@
+class Factorials 
+{
+	public static int factOfNum(int num )
+	{
+		int num = 145 , ori = num , ld=0,sum=0 , fact=0;
+		while (num > 145)
+		{
+			ld= num % 10;
+			while (ld> 0 )
+			{
+				for (int i =0; i <=num ;i++ )
+				{
+					fact = fact*i;
+				}
+				sum +=num;
+			}
+			num = num/10;
+		}
+		if(ori==sum)
+			{
+				System.out.println("The number is strong number "+sum);	
+			}
+		else
+		{
+			Systen.out.println("The num is not strong number "+ sum );
+		}
+	}
+}

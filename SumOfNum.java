@@ -1,0 +1,15 @@
+class SumOfNum 
+{
+	public static void main(String[] args) 
+	{
+		int num=123;
+		int sum=0,ld;
+		while (num>0)
+		{
+			ld=num%10;
+			sum=sum+ld;
+			num=num/10;
+		}
+		System.out.println(sum);
+	}
+}                                                                                                                                                  

@@ -1,0 +1,17 @@
+class CountOddNum
+{
+	public static void main(String[]args)
+	{
+		int num=63541;
+		int count=0;
+		while(num>0)
+		{
+			if(num%2==1 )
+			{
+				count++;
+			}
+			num=num/10;
+		}
+		System.out.println(count);
+	}
+}

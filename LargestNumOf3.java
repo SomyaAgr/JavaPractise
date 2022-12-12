@@ -1,0 +1,20 @@
+class LargestNumOf3 
+{
+	public static void main(String[] args) 
+	{
+		int a=10,b=90,c=8900;
+
+		if(a>b && a>c)
+		{
+			System.out.println(a+" is greater number");	
+		}
+		else if (b>c)
+		{
+			System.out.println(b+"  is a greater number");
+		}
+		else 
+		{
+			System.out.println(c+" is greatest number");
+		}
+	}
+}

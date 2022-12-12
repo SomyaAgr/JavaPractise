@@ -1,0 +1,18 @@
+class PrintNumRecursion 
+{
+	public static void printingNum(int i)
+	{
+		if(i==11)
+		{
+			return;
+		}
+		System.out.println(i);
+		i++;
+		printingNum(i);
+		
+	}
+	public static void main(String[] args) 
+	{
+		printingNum(1);
+	}
+}

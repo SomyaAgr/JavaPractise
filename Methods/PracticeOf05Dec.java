@@ -1,0 +1,30 @@
+class PracticeOf05Dec 
+{
+	public static int add(int a , int b) 
+	{
+		int sum =a+b;
+		System.out.println("add() method is called");
+		return sum;
+	}
+	public static int sumOfEven(int a,int b)
+	{
+		int ld=0,sum=0;
+		for (int i=a;i<=b ;i++ )
+		{
+			ld=i%2;
+		System.out.println(i);
+			if (ld%2==0)
+			{
+				sum=sum+i;
+			}
+		}
+		return sum;
+	}
+	public static void main(String[] args) 
+	{
+		int res=sumOfEven(1,10);
+		int sum= add(89,45);
+		System.out.println(sum);
+		System.out.println(res);
+	}
+}
